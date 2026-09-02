@@ -1,0 +1,40 @@
+# Raw or provider-controlled data
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.gmt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary and generated scratch files
+*.tmp
+*.log
+results/tmp/
+results/tables/gdsc_*_records.csv
+results/tables/*predictions.csv
+results/tables/*manifest.csv
+results/tables/prism_training_ids_without_sanger_mapping.csv
+
+# Credentials and environment secrets
+.env
+.env.*
+!.env.example
+*token*
+*secret*
